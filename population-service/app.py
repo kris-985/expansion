@@ -3,7 +3,6 @@ from services import get_population, predict_population
 
 app = Flask(__name__)
 
-# 1. Past population
 @app.route("/population/past")
 def past_population():
     country = request.args.get("country")
@@ -19,7 +18,6 @@ def past_population():
         return jsonify({"error": str(e)}), 500
 
 
-# 2. Future prediction
 @app.route("/population/future")
 def future_population():
     country = request.args.get("country")
