@@ -26,7 +26,7 @@ Simple REST API for fetching historical population data and predicting future po
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/kris-985/expansion
 cd population-service
 ```
 
@@ -152,9 +152,3 @@ http://127.0.0.1:5000/population/future?country=BG&year=2030
 ├── predict.py
 └── README.md
 ```
-
----
-
-## 👨‍💻 Author
-
-Kris
